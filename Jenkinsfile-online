@@ -10,11 +10,11 @@ pipeline {
     }
 
     environment {
-        DOCKER_CREDENTIAL_ID = 'harbor'
+        DOCKER_CREDENTIAL_ID = 'harbor-id'
         GITHUB_CREDENTIAL_ID = 'github-id'
-        KUBECONFIG_CREDENTIAL_ID = 'kubeconfig'
+        KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
         REGISTRY = 'core.harbor.domain:30515'
-        DOCKERHUB_NAMESPACE = 'wzjgo'
+        DOCKERHUB_NAMESPACE = 'cloud-dev'
         GITHUB_ACCOUNT = 'wzjgo'
         APP_NAME = 'devops-java-sample'
         SONAR_CREDENTIAL_ID = 'sonar-token'
